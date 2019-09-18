@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1E2DE03C2315636300CCD182 /* StringTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StringTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2DE03C2315636300CCD182 /* Crypto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Crypto; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2DE03F2315636300CCD182 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		6C13DEBB23324A1A0013DBF3 /* StringTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = StringTest.playground; path = StringTest/StringTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6C13DEBB23324A1A0013DBF3 /* Crypto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Crypto.playground; path = StringTest/Crypto.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +42,8 @@
 		1E2DE0332315636300CCD182 = {
 			isa = PBXGroup;
 			children = (
-				6C13DEBB23324A1A0013DBF3 /* StringTest.playground */,
-				1E2DE03E2315636300CCD182 /* StringTest */,
+				6C13DEBB23324A1A0013DBF3 /* Crypto.playground */,
+				1E2DE03E2315636300CCD182 /* Crypto */,
 				1E2DE03D2315636300CCD182 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,25 +51,25 @@
 		1E2DE03D2315636300CCD182 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E2DE03C2315636300CCD182 /* StringTest */,
+				1E2DE03C2315636300CCD182 /* Crypto */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E2DE03E2315636300CCD182 /* StringTest */ = {
+		1E2DE03E2315636300CCD182 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
 				1E2DE03F2315636300CCD182 /* main.swift */,
 			);
-			path = StringTest;
+			path = Crypto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E2DE03B2315636300CCD182 /* StringTest */ = {
+		1E2DE03B2315636300CCD182 /* Crypto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E2DE0432315636300CCD182 /* Build configuration list for PBXNativeTarget "StringTest" */;
+			buildConfigurationList = 1E2DE0432315636300CCD182 /* Build configuration list for PBXNativeTarget "Crypto" */;
 			buildPhases = (
 				1E2DE0382315636300CCD182 /* Sources */,
 				1E2DE0392315636300CCD182 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = StringTest;
+			name = Crypto;
 			productName = StringTest;
-			productReference = 1E2DE03C2315636300CCD182 /* StringTest */;
+			productReference = 1E2DE03C2315636300CCD182 /* Crypto */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E2DE0372315636300CCD182 /* Build configuration list for PBXProject "StringTest" */;
+			buildConfigurationList = 1E2DE0372315636300CCD182 /* Build configuration list for PBXProject "Crypto" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E2DE03B2315636300CCD182 /* StringTest */,
+				1E2DE03B2315636300CCD182 /* Crypto */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +264,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E2DE0372315636300CCD182 /* Build configuration list for PBXProject "StringTest" */ = {
+		1E2DE0372315636300CCD182 /* Build configuration list for PBXProject "Crypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E2DE0412315636300CCD182 /* Debug */,
@@ -273,7 +273,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E2DE0432315636300CCD182 /* Build configuration list for PBXNativeTarget "StringTest" */ = {
+		1E2DE0432315636300CCD182 /* Build configuration list for PBXNativeTarget "Crypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E2DE0442315636300CCD182 /* Debug */,
